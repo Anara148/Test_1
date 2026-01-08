@@ -25,7 +25,7 @@ def main(page: ft.Page):
                 formatted_time = now.strftime("%Y-%m-%d / %H:%M:%S")
 
                 text_hello.color = None
-                text_hello.value = f"Hello {name}\nВремя ввода: {formatted_time}"
+                text_hello.value = f"Привет,{name}!n/Время ввода: {formatted_time}"
                 name_input.value = None
         else:
             text_hello.value = 'Введите корректное имя'
